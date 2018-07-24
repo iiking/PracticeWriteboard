@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PracticeWriteboardActivity!</string>
+    <string name="app_name">练字板v1.0</string>
+	<string name="information">软件说明：</string>
+	<string name="cao">    安卓练字板是一款小学生练习笔画顺序的工具，可以让小学生跟着正确的笔画，进行练习，纠正写字。
+					可以选择同步的课程来进行练习，不管你在何时何地，只要有了它，你可以让你的小孩，练习标准的中国汉字，
+					跟上学习进度。</string>
+	<string name="one">选择章节是同步于小学教材的铅笔字课程来设计的，随机练习是随机选择一个字来练习。
+					当你不懂操作时，可以看软件说明。跟随练习模式就是，手机出现一笔，你就再屏幕上跟着写一笔，
+					当你写完之后，会自动到下一笔，当你熟悉了笔画顺序，可以选择整字练习模式，来巩固记忆。</string>
+
+	<string name="caozuo">操作说明：</string>
+
+	<string name="two">
+				如果你想跟上上课的脚步进行写字练习，可以选择课程，也可以选择随机练习。
+   				进入练字界面后，你可以选择一种练习模式，在手机屏幕上写字，如果想看正确的
+   				笔画顺序就按演示播放，如果你想回到选字界面，就按返回选字。当你选择跟随练习，
+   				你写了一笔，它会提示下一笔，你就可以跟着它练习了。轻松地学习写字，祝你踏上快乐的学习之旅！</string>
+</resources>

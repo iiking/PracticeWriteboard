@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/ic_bg">
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:gravity="center" 
+		android:background="@drawable/images" 
+		android:layout_height="35dp">
+		<TextView 
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content" 
+		android:textColor="#ffffff"
+		android:textSize="20dp" 
+		android:text="写字板简介" />
+	</LinearLayout>
+	<ScrollView 
+	android:id="@+id/ScrollView1" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+		<LinearLayout 
+		android:id="@+id/linearLayout1" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="vertical">
+		
+		<TextView 
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:textColor="#ffffff"
+		android:text="@string/information" 
+		android:padding="5dp"/>
+		<TextView 
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:textColor="#ffffff"
+		android:text="@string/cao" 
+		android:padding="5dp"/>
+		<TextView 
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:textColor="#ffffff"
+		android:text="@string/one" 
+		android:padding="5dp"/>
+		<TextView 
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:textColor="#ffffff"
+		android:text="@string/caozuo" 
+		android:padding="5dp"/>
+		<TextView 
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent" 
+		android:textColor="#ffffff"
+		android:text="@string/two" 
+		android:padding="5dp"/>
+		
+		</LinearLayout>
+	</ScrollView>
+
+		
+</LinearLayout>

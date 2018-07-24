@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center"
+  android:background="@drawable/papy_bg">
+  
+  <LinearLayout 
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center"
+  android:layout_weight="1"
+  >
+    <TextView 
+    android:id="@+id/tbbar"
+	android:layout_height="wrap_content"
+	android:text="速度为：50"
+	android:textColor="#000000"
+	android:layout_width="229dp"/>
+	<SeekBar 
+	android:id="@+id/seek1"
+	 android:max="200"
+	android:progress="100"
+	android:layout_height="wrap_content"
+	android:background="#00000000" 
+	android:layout_width="258dp"/>
+	
+	</LinearLayout>
+	
+	<LinearLayout
+	 android:orientation="horizontal"
+  	 android:layout_width="fill_parent"
+  	 android:layout_height="wrap_content"
+  	 android:gravity="center"
+	 >
+	<Button 
+	android:id="@+id/btmenu01"
+	android:layout_height="wrap_content"
+	android:text="确定" 
+	android:layout_width="84dp"/>
+	
+	<Button 
+	android:id="@+id/btmenu02"
+	android:layout_height="wrap_content"
+	android:text="重置" android:layout_width="84dp"/>
+	</LinearLayout>
+</LinearLayout>
