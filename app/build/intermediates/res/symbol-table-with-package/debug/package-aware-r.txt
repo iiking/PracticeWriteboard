@@ -1,4 +1,4 @@
-android.ncvt.zxz
+iiking.ncvt.zxz
 int color advertise_color 0x7f010000
 int color alpha70 0x7f010001
 int color alpha80 0x7f010002
@@ -198,15 +198,15 @@ int id seek1 0x7f040019
 int id tbbar 0x7f04001a
 int id tvTitle 0x7f04001b
 int id tvnews 0x7f04001c
-int layout aboutus 0x7f050000
-int layout activity_choose_course 0x7f050001
-int layout activity_main 0x7f050002
-int layout activity_start 0x7f050003
-int layout choosefont 0x7f050004
-int layout item_menu 0x7f050005
-int layout listitem 0x7f050006
-int layout menulist 0x7f050007
-int layout practicefont 0x7f050008
+int layout item_menu 0x7f050000
+int layout layout_about_us 0x7f050001
+int layout layout_choose_course 0x7f050002
+int layout layout_choose_font 0x7f050003
+int layout layout_main 0x7f050004
+int layout layout_practice_font 0x7f050005
+int layout layout_start 0x7f050006
+int layout listitem 0x7f050007
+int layout menulist 0x7f050008
 int raw bg 0x7f060000
 int raw db 0x7f060001
 int string app_name 0x7f070000

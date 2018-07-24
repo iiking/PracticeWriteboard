@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.ncvt.zxz">
+    package="iiking.ncvt.zxz">
 
     <application
         android:icon="@drawable/logo"
@@ -8,7 +8,8 @@
         android:screenOrientation="landscape">
         <activity
             android:label="@string/app_name"
-            android:name=".StartActivity">
+            android:name="iiking.ncvt.zxz.StartActivity"
+            android:launchMode="singleTask">
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -17,41 +18,46 @@
         
          <activity
             android:label="@string/app_name"
-            android:name=".ChooseCourseActivity"
+            android:name="ChooseCourseActivity"
+             android:launchMode="singleTask"
             android:screenOrientation="landscape">
         </activity>
         
         <activity
             android:label="@string/app_name"
-            android:name=".MyPaintActivity" 
+            android:name="MyPaintActivity"
+            android:launchMode="singleTask"
             android:screenOrientation="landscape">
         </activity>
         
         <activity
             android:label="@string/app_name"
-            android:name=".Imformation" 
+            android:name="Imformation"
+            android:launchMode="singleTask"
             android:screenOrientation="landscape">
         </activity>
         
         <activity
             android:label="@string/app_name"
-            android:name=".ChoosefontActivity" 
+            android:name="ChoosefontActivity"
+            android:launchMode="singleTask"
             android:screenOrientation="landscape">
         </activity>
         
         <activity
             android:label="@string/app_name"
-            android:name=".WriteboardActivity"
+            android:name="WriteboardActivity"
             android:screenOrientation="landscape"
             android:launchMode="singleTask">
         </activity>
         
         <activity
             android:label="@string/app_name"
-            android:name=".MenuActivity" 
+            android:name="MenuActivity"
+            android:launchMode="singleTask"
             android:screenOrientation="landscape">
         </activity>
-        
+
     </application>
 
 </manifest>

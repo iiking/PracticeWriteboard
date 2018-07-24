@@ -1,105 +1,127 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:1-57:12
+ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:1-63:12
+MERGED from [com.orhanobut:logger:1.3] /Users/yushanglicai/.gradle/caches/transforms-1/files-1.1/logger-1.3.aar/c0629fc906cdf1762e5781607817ef0e/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.satyan:sugar:1.5] /Users/yushanglicai/.gradle/caches/transforms-1/files-1.1/sugar-1.5.aar/9f7865622dea764f1db0fa5b63272352/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:multidex:1.0.2] /Users/yushanglicai/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/26872f54331340d12a2fdfbe06ab4bed/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:1-63:12
 	package
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:3:5-31
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:3:5-30
 		INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:1-57:12
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:1-63:12
 		INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:1-57:12
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:1-63:12
 		INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:5:5-55:19
+ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:5:5-61:19
+MERGED from [com.orhanobut:logger:1.3] /Users/yushanglicai/.gradle/caches/transforms-1/files-1.1/logger-1.3.aar/c0629fc906cdf1762e5781607817ef0e/AndroidManifest.xml:11:5-47
+MERGED from [com.orhanobut:logger:1.3] /Users/yushanglicai/.gradle/caches/transforms-1/files-1.1/logger-1.3.aar/c0629fc906cdf1762e5781607817ef0e/AndroidManifest.xml:11:5-47
 	android:screenOrientation
 		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:8:9-46
 	android:label
 		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:7:9-41
+	android:allowBackup
+		ADDED from [com.orhanobut:logger:1.3] /Users/yushanglicai/.gradle/caches/transforms-1/files-1.1/logger-1.3.aar/c0629fc906cdf1762e5781607817ef0e/AndroidManifest.xml:11:18-44
 	android:icon
 		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:6:9-38
-activity#android.ncvt.zxz.StartActivity
-ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:9:9-16:20
+activity#iiking.ncvt.zxz.StartActivity
+ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:9:9-17:20
 	android:label
 		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:10:13-45
-	android:name
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:11:13-42
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:12:13-15:29
-action#android.intent.action.MAIN
-ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:13:17-69
-	android:name
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:13:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:14:17-77
-	android:name
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:14:27-74
-activity#android.ncvt.zxz.ChooseCourseActivity
-ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:18:10-22:20
-	android:screenOrientation
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:21:13-50
-	android:label
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:19:13-45
-	android:name
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:20:13-49
-activity#android.ncvt.zxz.MyPaintActivity
-ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:24:9-28:20
-	android:screenOrientation
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:27:13-50
-	android:label
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:25:13-45
-	android:name
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:26:13-44
-activity#android.ncvt.zxz.Imformation
-ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:30:9-34:20
-	android:screenOrientation
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:33:13-50
-	android:label
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:31:13-45
-	android:name
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:32:13-40
-activity#android.ncvt.zxz.ChoosefontActivity
-ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:36:9-40:20
-	android:screenOrientation
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:39:13-50
-	android:label
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:37:13-45
-	android:name
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:38:13-47
-activity#android.ncvt.zxz.WriteboardActivity
-ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:42:9-47:20
-	android:screenOrientation
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:45:13-50
-	android:label
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:43:13-45
 	android:launchMode
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:46:13-44
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:12:13-44
 	android:name
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:44:13-47
-activity#android.ncvt.zxz.MenuActivity
-ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:49:9-53:20
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:11:13-57
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:13:13-16:29
+action#android.intent.action.MAIN
+ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:15:27-74
+activity#iiking.ncvt.zxz.ChooseCourseActivity
+ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:19:10-24:20
 	android:screenOrientation
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:52:13-50
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:23:13-50
 	android:label
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:50:13-45
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:20:13-45
+	android:launchMode
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:22:14-45
 	android:name
-		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:51:13-41
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:21:13-48
+activity#iiking.ncvt.zxz.MyPaintActivity
+ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:26:9-31:20
+	android:screenOrientation
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:30:13-50
+	android:label
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:27:13-45
+	android:launchMode
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:29:13-44
+	android:name
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:28:13-43
+activity#iiking.ncvt.zxz.Imformation
+ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:33:9-38:20
+	android:screenOrientation
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:37:13-50
+	android:label
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:34:13-45
+	android:launchMode
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:35:13-39
+activity#iiking.ncvt.zxz.ChoosefontActivity
+ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:40:9-45:20
+	android:screenOrientation
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:44:13-50
+	android:label
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:41:13-45
+	android:launchMode
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:42:13-46
+activity#iiking.ncvt.zxz.WriteboardActivity
+ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:47:9-52:20
+	android:screenOrientation
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:50:13-50
+	android:label
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:48:13-45
+	android:launchMode
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:51:13-44
+	android:name
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:49:13-46
+activity#iiking.ncvt.zxz.MenuActivity
+ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:54:9-59:20
+	android:screenOrientation
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:58:13-50
+	android:label
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:55:13-45
+	android:launchMode
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:57:13-44
+	android:name
+		ADDED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml:56:13-40
 uses-sdk
 INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml
 INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml
+MERGED from [com.orhanobut:logger:1.3] /Users/yushanglicai/.gradle/caches/transforms-1/files-1.1/logger-1.3.aar/c0629fc906cdf1762e5781607817ef0e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.orhanobut:logger:1.3] /Users/yushanglicai/.gradle/caches/transforms-1/files-1.1/logger-1.3.aar/c0629fc906cdf1762e5781607817ef0e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.satyan:sugar:1.5] /Users/yushanglicai/.gradle/caches/transforms-1/files-1.1/sugar-1.5.aar/9f7865622dea764f1db0fa5b63272352/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.satyan:sugar:1.5] /Users/yushanglicai/.gradle/caches/transforms-1/files-1.1/sugar-1.5.aar/9f7865622dea764f1db0fa5b63272352/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:multidex:1.0.2] /Users/yushanglicai/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/26872f54331340d12a2fdfbe06ab4bed/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:multidex:1.0.2] /Users/yushanglicai/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/26872f54331340d12a2fdfbe06ab4bed/AndroidManifest.xml:20:5-43
 INJECTED from /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/AndroidManifest.xml
