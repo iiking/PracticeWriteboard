@@ -13,15 +13,12 @@ public class Papy extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);//去掉标题栏
 		this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 				WindowManager.LayoutParams.FLAG_FULLSCREEN);//去掉信息栏
 
 		this.setContentView(R.layout.papymain);
-
 		final Intent localIntent=new Intent(this,PracticeWriteboardActivity.class);
 		Timer timer=new Timer();
 
@@ -35,7 +32,6 @@ public class Papy extends Activity {
 			}
 		};
 		timer.schedule(tast,2000);
-
 	}
 
 }

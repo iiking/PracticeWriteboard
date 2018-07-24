@@ -48,20 +48,19 @@ public class PracticeWriteboardActivity extends Activity implements
 
         SQLiteDatabase db = dbHelper.getReadableDatabase();
 
-        Cursor cursor = db.query("fontpacket", new String[] { "id", "name",
-                "url" }, null, null, null, null, null);
+        Cursor cursor = db.query("fontpacket", new String[]{"id", "name",
+                "url"}, null, null, null, null, null);
         int n = cursor.getCount();
         cursor.moveToFirst();
         ArrayList<Fonts> al = new ArrayList<Fonts>();
-        if(n > 0 )
-        {
+        if (n > 0) {
             do {
                 Fonts font = new Fonts();
                 int id = cursor.getInt(0);
                 font.setId(id);
                 font.setName(cursor.getString(1));
                 al.add(font);
-            }while(cursor.moveToNext());
+            } while (cursor.moveToNext());
         }
 
         cursor.close();
@@ -90,53 +89,38 @@ public class PracticeWriteboardActivity extends Activity implements
                 is.close();
             }
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
     }
 
     // <--判断是否退出
-
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         // 按下键盘上返回按钮
         if (keyCode == KeyEvent.KEYCODE_BACK) {
-
             new AlertDialog.Builder(this)
-
                     .setTitle("退出软件")
-
                     .setMessage("确认退出安卓练字板？")
-
                     .setNegativeButton("取消", new DialogInterface.OnClickListener() {
 
                         public void onClick(DialogInterface dialog, int which) {
                             // TODO Auto-generated method stub
-
                         }
                     })
-
                     .setPositiveButton("确定", new DialogInterface.OnClickListener() {
 
                         public void onClick(DialogInterface dialog, int whichButton) {
-
                             finish();
-
                         }
 
                     }).show();
-
             return true;
-
         } else {
-
             return super.onKeyDown(keyCode, event);
-
         }
-
     }
 
     // -->退出登录
-
     public void onClick(View view) {
         // TODO Auto-generated method stub
         Intent intent = new Intent();
@@ -144,22 +128,17 @@ public class PracticeWriteboardActivity extends Activity implements
 
             intent.setClass(PracticeWriteboardActivity.this,
                     ListViewActivity.class);
-
             PracticeWriteboardActivity.this.startActivity(intent);
 
         } else if (view.getId() == R.id.imgbtn2) {
-
             intent.setClass(PracticeWriteboardActivity.this,
                     ChoosefontActivity.class);
 
             PracticeWriteboardActivity.this.startActivity(intent);
 
         } else if (view.getId() == R.id.imgbtn3) {
-
             intent.setClass(PracticeWriteboardActivity.this, Imformation.class);
-
             PracticeWriteboardActivity.this.startActivity(intent);
-
         }
     }
 }
