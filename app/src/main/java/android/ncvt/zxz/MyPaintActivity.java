@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.AssetManager;
-import android.entity.Fonts;
+import android.model.Fonts;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.view.Menu;

@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.ncvt.zxz"
-    android:versionCode="1"
-    android:versionName="1.0" >
-
-    <uses-sdk android:minSdkVersion="7" />
+    package="android.ncvt.zxz">
 
     <application
         android:icon="@drawable/logo"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+        android:screenOrientation="landscape">
         <activity
             android:label="@string/app_name"
-            android:name=".Papy" 
-            android:screenOrientation="landscape">
+            android:name=".StartActivity">
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -21,7 +17,7 @@
         
          <activity
             android:label="@string/app_name"
-            android:name=".ListViewActivity" 
+            android:name=".ChooseCourseActivity"
             android:screenOrientation="landscape">
         </activity>
         
@@ -29,7 +25,6 @@
             android:label="@string/app_name"
             android:name=".MyPaintActivity" 
             android:screenOrientation="landscape">
-            
         </activity>
         
         <activity
@@ -46,8 +41,9 @@
         
         <activity
             android:label="@string/app_name"
-            android:name=".PracticeWriteboardActivity" 
-            android:screenOrientation="landscape">
+            android:name=".WriteboardActivity"
+            android:screenOrientation="landscape"
+            android:launchMode="singleTask">
         </activity>
         
         <activity

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listbg"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/seatView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"/>
+
+    <ListView
+        android:id="@+id/lvResult"
+        android:layout_below="@+id/seatView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:fadingEdge="none"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_top" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -11,11 +11,12 @@
     <application
         android:debuggable="true"
         android:icon="@drawable/logo"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+        android:screenOrientation="landscape"
+        android:testOnly="true" >
         <activity
-            android:name="android.ncvt.zxz.Papy"
-            android:label="@string/app_name"
-            android:screenOrientation="landscape" >
+            android:name="android.ncvt.zxz.StartActivity"
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="android.ncvt.zxz.ListViewActivity"
+            android:name="android.ncvt.zxz.ChooseCourseActivity"
             android:label="@string/app_name"
             android:screenOrientation="landscape" >
         </activity>
@@ -43,8 +44,9 @@
             android:screenOrientation="landscape" >
         </activity>
         <activity
-            android:name="android.ncvt.zxz.PracticeWriteboardActivity"
+            android:name="android.ncvt.zxz.WriteboardActivity"
             android:label="@string/app_name"
+            android:launchMode="singleTask"
             android:screenOrientation="landscape" >
         </activity>
         <activity

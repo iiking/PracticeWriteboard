@@ -8,7 +8,7 @@ import android.content.res.AssetManager;
 import android.database.Cursor;
 import android.database.DatabaseHelper;
 import android.database.sqlite.SQLiteDatabase;
-import android.entity.Fonts;
+import android.model.Fonts;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;

@@ -4,12 +4,16 @@
         "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/drawable-hdpi/icon7.png"
     },
     {
-        "merged": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/res/merged/debug/drawable-hdpi_suo.png.flat",
-        "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/drawable-hdpi/suo.png"
+        "merged": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/res/merged/debug/layout_activity_choose_course.xml.flat",
+        "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/layout/activity_choose_course.xml"
     },
     {
         "merged": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/res/merged/debug/drawable-hdpi_logo.png.flat",
         "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/res/merged/debug/drawable-hdpi_suo.png.flat",
+        "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/drawable-hdpi/suo.png"
     },
     {
         "merged": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/res/merged/debug/drawable-mdpi_listbg.png.flat",
@@ -36,12 +40,12 @@
         "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/layout/aboutus.xml"
     },
     {
-        "merged": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/res/merged/debug/layout_practicefont.xml.flat",
-        "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/layout/practicefont.xml"
-    },
-    {
         "merged": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/res/merged/debug/raw_db.flat",
         "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/raw/db"
+    },
+    {
+        "merged": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/res/merged/debug/layout_practicefont.xml.flat",
+        "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/layout/practicefont.xml"
     },
     {
         "merged": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/res/merged/debug/layout_choosefont.xml.flat",
@@ -132,6 +136,10 @@
         "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/drawable-hdpi/papy_bg.png"
     },
     {
+        "merged": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/layout/activity_main.xml"
+    },
+    {
         "merged": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_btn2.png.flat",
         "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/drawable-hdpi/ic_btn2.png"
     },
@@ -176,10 +184,6 @@
         "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/drawable-ldpi/ic_tt.png"
     },
     {
-        "merged": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/res/merged/debug/layout_userlist.xml.flat",
-        "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/layout/userlist.xml"
-    },
-    {
         "merged": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/res/merged/debug/drawable-hdpi_fontbotton.png.flat",
         "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/drawable-hdpi/fontbotton.png"
     },
@@ -196,10 +200,6 @@
         "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/drawable-hdpi/icon1.png"
     },
     {
-        "merged": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/res/merged/debug/layout_papymain.xml.flat",
-        "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/layout/papymain.xml"
-    },
-    {
         "merged": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/res/merged/debug/drawable-ldpi_list_top.png.flat",
         "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/drawable-ldpi/list_top.png"
     },
@@ -212,8 +212,8 @@
         "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/layout/menulist.xml"
     },
     {
-        "merged": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/res/merged/debug/layout_main.xml.flat",
-        "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/layout/main.xml"
+        "merged": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/res/merged/debug/layout_activity_start.xml.flat",
+        "source": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/src/main/res/layout/activity_start.xml"
     },
     {
         "merged": "/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/res/merged/debug/drawable-hdpi_playing.xml.flat",
