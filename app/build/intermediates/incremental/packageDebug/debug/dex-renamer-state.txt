@@ -1,7 +1,7 @@
-#Tue Jul 24 20:51:16 CST 2018
-base.0=/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/transforms/dexMerger/debug/0
+#Mon Jul 30 19:49:28 CST 2018
+base.0=/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/transforms/dexMerger/debug/4
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/transforms/dexMerger/debug/1/classes.dex
-base.1=/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/transforms/dexMerger/debug/1
-file.0=/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
+file.1=/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/transforms/dexMerger/debug/5/classes.dex
+base.1=/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/transforms/dexMerger/debug/5
+file.0=/Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/transforms/dexMerger/debug/4/classes.dex

@@ -1,0 +1,43 @@
+-injars /Users/yushanglicai/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.0.0/3a10b25b6820e19102e118711afe6a66c0bae123/butterknife-6.0.0.jar(**.class)
+-injars '/Applications/Android Studio.app/Contents/gradle/m2repository/com/google/code/gson/gson/2.3/gson-2.3.jar'(**.class)
+-injars /Users/yushanglicai/.gradle/caches/transforms-1/files-1.1/logger-1.3.aar/c0629fc906cdf1762e5781607817ef0e/jars/classes.jar(**.class)
+-injars /Users/yushanglicai/.gradle/caches/transforms-1/files-1.1/sugar-1.5.aar/9f7865622dea764f1db0fa5b63272352/jars/classes.jar(**.class)
+-injars /Users/yushanglicai/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.1.1/5cd91fd014f5b72292f959748c20a2cefefae77d/eventbus-3.1.1.jar(**.class)
+-injars /Users/yushanglicai/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/26872f54331340d12a2fdfbe06ab4bed/jars/classes.jar(**.class)
+-injars /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/classes/debug(**.class)
+-outjars /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /Users/yushanglicai/Library/Android/sdk/build-tools/26.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration /Users/yushanglicai/Documents/KingDocument/PracticeWriteboard/app/build/intermediates/multi-dex/debug/components.flags
+
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

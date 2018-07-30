@@ -31,16 +31,22 @@ public class MyPaintActivity extends BaseActivity implements OnMenuItemClickList
 
     @InjectView(R.id.ivAnimView)
     ImageView ivAnimView;
+
     @InjectView(R.id.fontlinearLayout)
     LinearLayout fontlinearLayout;
+
     @InjectView(R.id.btnOneShot)
     Button btnOneShot;
+
     @InjectView(R.id.btnStartAnim)
     Button btnStartAnim;
+
     @InjectView(R.id.btnClear)
     Button btnClear;
+
     @InjectView(R.id.btnretAnim)
     Button btnretAnim;
+
     @InjectView(R.id.linearLayout3)
     LinearLayout linearLayout3;
 

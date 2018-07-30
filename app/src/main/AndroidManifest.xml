@@ -4,12 +4,12 @@
 
     <application
         android:icon="@drawable/logo"
-        android:label="@string/app_name"
-        android:screenOrientation="landscape">
+        android:label="@string/app_name">
         <activity
             android:label="@string/app_name"
-            android:name="iiking.ncvt.zxz.StartActivity"
-            android:launchMode="singleTask">
+            android:name="iiking.ncvt.zxz.SplashActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape">
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.orhanobut.logger.Logger;
+
 /**
  * Created by yushanglicai on 2018/7/24.
  */
@@ -21,11 +23,11 @@ public class BaseActivity extends Activity {
         this.getWindow().setSoftInputMode(
                 WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE |
                         WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
-        this.requestWindowFeature(Window.FEATURE_NO_TITLE);//去掉标题栏
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);//去掉信息栏
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        Logger.init(TAG);
         mBaseContext = this;
-
         //获取屏幕的大小
         mSreenWidth = this.getWindow().getWindowManager().getDefaultDisplay().getWidth();
     }

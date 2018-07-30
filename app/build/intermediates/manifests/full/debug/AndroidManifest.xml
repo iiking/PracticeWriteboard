@@ -13,12 +13,12 @@
         android:debuggable="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:screenOrientation="landscape"
         android:testOnly="true" >
         <activity
-            android:name="iiking.ncvt.zxz.StartActivity"
+            android:name="iiking.ncvt.zxz.SplashActivity"
             android:label="@string/app_name"
-            android:launchMode="singleTask" >
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
